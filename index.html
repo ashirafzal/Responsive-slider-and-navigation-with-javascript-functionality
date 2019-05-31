@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Responsive Side Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <span class="open-slide" id="open">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <div class="menu-a-container">
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <div id="main">
+    <h2>Responsive Side Menu</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor enim, animi, vitae illo molestiae ipsum fuga distinctio quis consequatur ab dolorum, vel necessitatibus sint error. Totam excepturi beatae temporibus similique. Repellendus ab corporis reiciendis ex eius reprehenderit animi ad quis totam ut eaque at recusandae, eligendi sit delectus, repudiandae asperiores?</p>
+    <h2>Pragraph 1(Javascript functionality)</h2>
+    <label id="label" onclick="label1()">View Text</label><label id="label2" onclick="wrap()">Show less</label>
+    <p id="p1">Hey ! This is an javascriipt function By clicking showless it will dissapear and by clickng View Text it will show the text</p>
+    <h2>Pragraph 2</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ut eveniet cupiditate, harum cumque doloribus a perferendis dicta, sed rerum corrupti quod numquam culpa dignissimos nesciunt? Et in labore ad, incidunt laborum, blanditiis natus dolorem, odit numquam optio qui temporibus nemo quaerat? Cupiditate numquam praesentium officia harum itaque dolor hic?</p>
+    <h2>Pragraph 3</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam, neque minus fugiat ipsam iusto sequi. Eveniet hic, sequi aspernatur doloremque veritatis nesciunt nulla fugiat eius atque, deleniti rerum nisi nostrum? Eius delectus nulla neque maiores perspiciatis. Nisi dignissimos vero, maxime eligendi reprehenderit culpa molestias itaque quam commodi, doloribus voluptatum.</p>
+    <h2>Pragraph 4</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam, neque minus fugiat ipsam iusto sequi. Eveniet hic, sequi aspernatur doloremque veritatis nesciunt nulla fugiat eius atque, deleniti rerum nisi nostrum? Eius delectus nulla neque maiores perspiciatis. Nisi dignissimos vero, maxime eligendi reprehenderit culpa molestias itaque quam commodi, doloribus voluptatum.</p>
+    <h2>Pragraph 5</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam, neque minus fugiat ipsam iusto sequi. Eveniet hic, sequi aspernatur doloremque veritatis nesciunt nulla fugiat eius atque, deleniti rerum nisi nostrum? Eius delectus nulla neque maiores perspiciatis. Nisi dignissimos vero, maxime eligendi reprehenderit culpa molestias itaque quam commodi, doloribus voluptatum.</p>
+  </div>
+
+  <script src="index.js">
+    
+  </script>
+</body>
+</html>
